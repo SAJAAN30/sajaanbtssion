@@ -1,0 +1,37 @@
+body
+{
+	background-color: blueviolet;
+}
+h1
+{
+	color: red
+	font-size: 40px;
+	text-align: center;
+}
+v
+ .groupe1
+ {
+ 	background-color: red;
+ }
+ .groupe2
+ {
+ 	background-color: darkblue;
+ }
+
+ .b1 {
+ 	background-color: royalblue;
+ 	color: red;
+ 	border: none;
+ 	border-radius: 5px;
+ 	padding: 10px;
+ 	text-align: center;
+ 	margin: 10px;
+ 	cursor: pointer;
+ 	transition: color 0.3s ease;
+ 	width: 150px;
+ }
+
+ .b1:hover {
+ 	color: darkred;
+ 	background-color: steelblue;
+ }
