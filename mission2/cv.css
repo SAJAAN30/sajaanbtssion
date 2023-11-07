@@ -6,7 +6,8 @@
     text-align: justify;
     box-sizing: border-box;
 }
-body{
+body
+ {
     background: #ededed;
 }
 p{
@@ -18,7 +19,7 @@ a{
     color: #000;
 }
 
-/*HEADER & FOOTER*/
+
 header, footer{
     width: 100%;
     padding: 20px 0px;

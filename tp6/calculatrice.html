@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <script src="facture.js"></script>
+    <link rel="stylesheet" type="text/css" href="facture.css">
+    <title>Calculatrice</title>
+    </head>  
+    <body>
+        <center>
+            <h1> Calculatrice </h1>
+            <div>
+                <input class="t" placeholder="Premier chiffre" type="number" name="t1" id="t1">
+                <input class="t" placeholder="Deuzieme Chiffre" type="number" name="t1" id="t2">
+
+            </div>
+            <div>
+                <button onclick="addition()">+</button>
+                <button onclick="soustraction()">-</button>
+                <button onclick="division()">/</button>
+                <button onclick="multiplication()">x</button>
+            </div>
+            <div>
+                <button onclick="parite()"> Pariter</button>
+                <button onclick="permute()">Permuter</button>
+            </div>
+            <div>
+                <input class="t34" placeholder="Resultat" type="text" name="t3" id="t3" readonly>
+                
+            </div>
+            <div>
+                <input class="t34" placeholder="Pair ou Impair ?" type="text" name="t4" readonly>
+            </div>
+        </center>
+    </body>
+
+</html>
