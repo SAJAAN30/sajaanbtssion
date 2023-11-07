@@ -1,0 +1,248 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+.load-container {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: indianred;
+    pointer-events: none;
+}
+
+.anim-bloc {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    z-index: 100;
+
+}
+ .bloc-txt {
+    background: green;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    height: 0;
+    z-index: 175;
+    overflow: hidden;
+}
+
+.bloc-txt h2 {
+    padding: 10px 30px;
+    color: #222;
+    font-family: Playfair Display, serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    transform: translateY(100px);
+}
+
+.images-container {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+
+    bottom: 0px;
+    z-index: 150;
+    overflow: hidden;
+}
+
+.img-flip{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    position: absolute;
+}
+
+.flip-img1 {
+    background-image: url(resources/image/ingetis.jpg);
+}
+
+.flip {
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    position: absolute;
+}
+
+.f2 {
+    background:blueviolet;
+}
+
+
+
+.home {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.603);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home-content {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    color: #fff;
+    z-index: 15;
+}
+.home-content h1 {
+    font-family: Playfair Display, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 85px;
+    /* font-weight: bolder; */
+    line-height: 1.1;
+}
+.home-content .middle-line {
+    height: 200px;
+    width: 2px;
+    background: #fff;
+    margin: 40px auto;
+    position: relative;
+}
+
+
+.home-content button {
+    display: block;
+    font-size: 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    margin: 50px auto 0;
+    padding: 16px 30px;
+    cursor: pointer;
+}
+
+
+header {
+	background-color: #4d4d4d;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 15%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover {
+    color: rgb(132, 0, 255);
+    border-bottom: 2px solid rgb(84, 0, 133);
+}
+
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #ccc;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+
+.sous li {
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover {
+    border-bottom: none;
+    background-color: rgba(200, 200, 200, 0.1);
+}
+
+.deroulant > a::after {
+    content:"   ▼";
+    font-size: 12px;
+}
+
+.test2 {
+    display: inline-block;
+    width: 100%;
+}
+
+.test3 {
+    background: rgb(177, 177, 177);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    color: white;
+    width: 50%;
+}
