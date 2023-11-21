@@ -2,16 +2,16 @@ h1 {
     text-align: center;
 }
 body {
-    background-color: red;
+    background-color: #249557;
 }
-.t{
+.b{
     border-radius: 20px;
     height: 50px;
     width: 350px;
     margin-top: 5px;
 }
 .t1 {
-    background-color:blueviolet;
+    background-color: #e11786;
 }
 .t55 {
     margin-left: 20px;
