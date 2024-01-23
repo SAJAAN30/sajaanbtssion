@@ -45,3 +45,4 @@ function parite(){
     else
     t4.value = ("Impair")
 }
+
